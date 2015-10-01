@@ -8,6 +8,7 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
+
 def vowel_or_consonant():
     """
     Exercise: Vowel or Consonant
@@ -17,22 +18,21 @@ def vowel_or_consonant():
     "sometimes a vowel, sometimes a consonant". Otherwise your program should
     display a message indicating that the letter is a "consonant".
     """
+    letter = raw_input("Please enter a letter of the alphabet: ")
 
-letter = raw_input("What letter do you have for me? ")
+    if letter == "a":
+        print("vowel")
+    elif letter == "e":
+        print ("vowel")
+    elif letter == "i":
+        print ("vowel")
+    elif letter == "o":
+        print ("vowel")
+    elif letter == "u":
+        print ("vowel")
+    elif letter == "y":
+        print ("sometimes a vowel, sometimes a consonant")
+    else:
+        print("consonant")
 
-if letter == ("a"):
-    print("vowel")
-elif letter == ("e"):
-    print ("vowel")
-elif letter == ("i"):
-    print ("vowel")
-elif letter == ("o"):
-    print ("vowel")
-elif letter == ("u"):
-    print ("vowel")
-elif letter == ("y"):
-    print ("sometimes vowel, sometimes a consonant")
-else:
-    print("consonant")
-
-
+# vowel_or_consonant()
