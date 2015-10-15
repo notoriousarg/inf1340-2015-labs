@@ -38,6 +38,7 @@ def name_that_shape():
 
     """
 
+    get_user_input(sides)
     sides = int(raw_input("Number of sides:"))
 
     if sides == 3:
@@ -59,4 +60,29 @@ def name_that_shape():
     else:
         print("Error")
 
-# name_that_shape()
+name_that_shape()
+
+
+
+def get_user_input():
+
+    input_is_an_integer == True
+    while input_is_an_integer == false
+
+
+    return int(raw_input("Number of sides:"))
+
+
+    input_is_an_integer == True
+
+    #output = raw_input("Number of sides:")
+    #output = ""
+
+   #input_is_an_integer =
+
+    while input_is_an_integer: True
+
+    #return int(raw_input("Number of sides:"))
+
+        #if :
+                    #= False
