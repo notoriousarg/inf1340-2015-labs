@@ -2,25 +2,16 @@
 
 """ Graded Lab #2 for Inf1340, Fall 2015 """
 
-__author__ = 'Susan Sim'
-__email__ = "ses@drsusansim.org"
-__copyright__ = "2015 Susan Sim"
-__license__ = "MIT License"
-
-
 """
 Instructions: Add a function to to get input from the user and use that
 function in name_that_shape()
-
 The function should prompt the user for input until a legal value is
 entered. A legal value is any integer.
-
 """
 
 def name_that_shape():
     """
     For a given number of sides in a regular polygon, returns the shape name
-
     Inputs | Expected Outputs
     -------------------------
       < 3  | Error
@@ -33,13 +24,9 @@ def name_that_shape():
       9    | nonagon
       10   | decagon
       > 10 | Error
-
     Errors: ValueError when input is a string or float
-
     """
-
-    get_user_input(sides)
-    sides = int(raw_input("Number of sides:"))
+    sides = get_user_input()
 
     if sides == 3:
         print("triangle")
@@ -60,29 +47,19 @@ def name_that_shape():
     else:
         print("Error")
 
-name_that_shape()
-
-
-
 def get_user_input():
+    output = ""
 
-    input_is_an_integer == True
-    while input_is_an_integer == false
+    input_is_an_integer = False
+
+    while input_is_an_integer == False:
+        output = (raw_input("Number of Sides:"))
+        if output.isdigit() == True or output[0] == "-" and output[1:].isdigit():
+            output = int(output)
+            input_is_an_integer = True
+
+    return output
 
 
-    return int(raw_input("Number of sides:"))
+#name_that_shape()
 
-
-    input_is_an_integer == True
-
-    #output = raw_input("Number of sides:")
-    #output = ""
-
-   #input_is_an_integer =
-
-    while input_is_an_integer: True
-
-    #return int(raw_input("Number of sides:"))
-
-        #if :
-                    #= False
